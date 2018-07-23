@@ -19,6 +19,12 @@ func acronym(s string) (acr string) {
 }
 
 func main() {
+
+	a := -1.0
+	b := 0.0
+
+	fmt.Println(a / b)
+
 	s := "Pan Galactic Gargle Blaster"
 	if len(os.Args) > 1 {
 		s = strings.Join(os.Args, " ")
