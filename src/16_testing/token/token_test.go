@@ -2,9 +2,10 @@
 package token_test // black box testing
 
 import (
-	"16_testing/token"
 	"reflect"
 	"testing"
+
+	"github.com/rishikeshjadhav/MasterGo/src/16_testing/token"
 )
 
 func TestScan(t *testing.T) {
